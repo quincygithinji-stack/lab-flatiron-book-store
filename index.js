@@ -59,7 +59,7 @@ bookStore.books.forEach((book) => {
     const li = document.createElement("li");
 
     const title = document.createElement("h3");
-    title.textConent = book.title;
+    title.textContent = book.title;
 
     const author = document.createElement("p");
     author.textContent = book.author;
